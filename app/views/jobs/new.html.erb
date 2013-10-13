@@ -1,0 +1,19 @@
+<h1>New job</h1>
+
+<%= render "flash" %>
+
+<%= form_for :job, url: jobs_path  do |f| %>
+  <p>
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <%= f.label :filename %>
+    <%= f.file_field :filename %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
