@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  delegate_id: 1
+  first_name: MyString
+  last_name: MyString
+  email_address: MyString
+  company: MyString
+
+two:
+  delegate_id: 1
+  first_name: MyString
+  last_name: MyString
+  email_address: MyString
+  company: MyString
